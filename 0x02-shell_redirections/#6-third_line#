@@ -1,0 +1,3 @@
+#!/bin/bash
+head -n 3 ./iactselect 
+|tail -n 1 ./iacta
