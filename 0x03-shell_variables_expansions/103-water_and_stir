@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $WATER | tr 'water' '012345'
