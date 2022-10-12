@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $WATER | tr 'water' '012345'
+echo $(STIR 'stir' '01234))))' | tr 0123
