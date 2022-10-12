@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(STIR 'stir' '01234))))' | tr 0123
+echo $(STIR 'stir' '01234')))) | tr 0123
