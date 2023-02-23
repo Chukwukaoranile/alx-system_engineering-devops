@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+my_store=0
+while [ $my_store -lt 20 ]
+do
+        echo "$my_store" 
+	case $my_store in
+		4) echo "bad luck from china"
+		;;
+		9) echo "bad luckfrom Japan"
+		;;
+		17) echo "bad luck from Italy"
+		;;
+	esac
+        ((my_store++))
+done
