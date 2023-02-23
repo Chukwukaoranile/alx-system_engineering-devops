@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+my_store=0
+until [ $my_store -eq 10 ]
+do
+        echo "Best School"
+        ((my_store++))
+done
