@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 time - Chika Achebe
+my_store=0
+while [ $my_store -lt 10 ]
+do
+	echo "Best School"
+	((my_store++))
+done
+
