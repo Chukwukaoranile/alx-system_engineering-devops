@@ -3,4 +3,5 @@
 for const in {1..10}
 do
 	echo $"Best School"
+	export const
 done
