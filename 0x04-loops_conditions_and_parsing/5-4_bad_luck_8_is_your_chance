@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+my_store=0
+while [ $my_store -lt 10 ]
+do
+	echo "Best School"
+	((my_store++))
+	if [[ "$my_store" -eq '4' ]]; then
+		echo "bad luck"
+	elif [[ "$my_store" -eq '8' ]]; then
+		echo "good luck"
+	fi
+done
