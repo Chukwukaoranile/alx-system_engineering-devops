@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # This script is displaying "Best School" 10 times
-my_store=0
-while [ $my_store -lt 20 ]
+my_store=1
+while [ $my_store -le 20 ]
 do
         echo "$my_store" 
 	case $my_store in
