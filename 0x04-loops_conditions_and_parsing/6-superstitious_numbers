@@ -7,7 +7,7 @@ do
 	case $my_store in
 		4) echo "bad luck from china"
 		;;
-		9) echo "bad luckfrom Japan"
+		9) echo "bad luck from Japan"
 		;;
 		17) echo "bad luck from Italy"
 		;;
