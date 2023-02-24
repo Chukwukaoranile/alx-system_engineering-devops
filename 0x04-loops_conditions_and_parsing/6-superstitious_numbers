@@ -5,7 +5,7 @@ while [ $my_store -le 20 ]
 do
         echo "$my_store" 
 	case $my_store in
-		4) echo "bad luck from china"
+		4) echo "bad luck from China"
 		;;
 		9) echo "bad luck from Japan"
 		;;
