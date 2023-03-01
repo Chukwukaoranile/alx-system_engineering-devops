@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Write a Bash script that displays the time for 12 hours and 59 minutes
+
+my_store_0=1
+my_store_1=0
+while [ $h -lt 13 ]
+do
+	echo "Hour: $my_store_1"
+	while [ $my_store_0 -lt 60 ]
+	do
+		echo "$my_store_0"
+		my_store_0=$(( my_store_0 + 1 ))
+	done
+	my_store_0=1
+	h=$(( my_store_1 + 1 ))
+done
