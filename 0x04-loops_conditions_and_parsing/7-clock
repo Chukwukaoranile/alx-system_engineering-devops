@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Write a Bash script that displays the time for 12 hours and 59 minutes
+# A Bash script that displays the time for 12 hours and 59 minutes
 
 my_store_0=1
 my_store_1=0
