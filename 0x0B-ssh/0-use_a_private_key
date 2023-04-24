@@ -2,4 +2,4 @@
 # a Bash script that uses ssh to connect to your server using the private
 # key ~/.ssh/school with the user ubuntu.
 # copy "SSH Public key" into ~/.ssh/authorized_keys
-ssh -i ~/.ssh/school ubuntu@100.26.151.235
+ssh -i ~/.ssh/school ubuntu@54.160.105.142
