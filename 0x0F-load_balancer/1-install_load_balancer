@@ -2,10 +2,16 @@
 # Installation and configuration of  HAproxy on your lb-01 server.
 
 # Install HAproxy on a server
-apt-get -y update
-apt-get -y install haproxy=1.6.\*
+apt-get install -y software-properties-common
+add-apt-repository -y ppa:vbernat/haproxy-2.4
+apt-get update
+apt-get install -y haproxy=2.4.\*
 
-# haproxy configuration
+echo "ENABLED=1" >> /etc/default/haproxy
+mv /etc/haproxy/haproxy.cfg{,.original}
+touch /etc/haproxy/haproxy.cfg
+
+# haproxy configuration with roundrobin algorithm
 echo '
 frontend nimasolutions.tech
         bind 0:80
