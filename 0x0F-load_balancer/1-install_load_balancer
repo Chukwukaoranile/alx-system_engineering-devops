@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# Installation and configuration of  HAproxy on your lb-01 server.
+
+# Install HAproxy on a server
+apt-get -y update
+apt-get -y install haproxy=1.6.\*
+
+# haproxy configuration
+echo '
+frontend nimasolutions.tech
+        bind 0:80
+        default_backend web_servers
+
+backend web_servers
+        balance roundrobin
+        server 182381-web-01 54.160.105.142
+        server 182381-web-02 52.237.96.119
+' >> /etc/haproxy/haproxy.cfg
+
+# Restart HAproxy service
+service haproxy restart
