@@ -2,25 +2,23 @@
 # Installation and configuration of  HAproxy on your lb-01 server.
 
 # Install HAproxy on a server
-add-apt-repository -y ppa:vbernat/haproxy-2.4
-apt-get update
-apt-get install -y haproxy=2.4.\*
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get -y install haproxy
+sudo cp /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg.original2
+echo "
 
-echo "ENABLED=1" >> /etc/default/haproxy
-mv /etc/haproxy/haproxy.cfg{,.original}
-touch /etc/haproxy/haproxy.cfg
-
-# haproxy configuration with roundrobin algorithm
-echo '
-frontend chukwukaoranile.tech
+# configuration of the Haproxy
+listen 3284-lb-01
         bind 0:80
-        default_backend web_servers
-
-backend web_servers
+        mode http
+        stats enable
         balance roundrobin
+        option httpclose
+        option forwardfor
         server 182381-web-01 54.160.105.142
         server 182381-web-02 52.237.96.119
-' >> /etc/haproxy/haproxy.cfg
+" | sudo tee -a /etc/haproxy/haproxy.cfg
 
 # Restart HAproxy service
 service haproxy restart
