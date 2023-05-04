@@ -6,19 +6,17 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get -y install haproxy
 sudo cp /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg.original2
-echo "
-
-# configuration of the Haproxy
-listen 3284-lb-01
+sudo echo "
+# Configuration of Haproxy using round robin algirithm
+frontend chukwukaoranile.tech
         bind 0:80
         mode http
-        stats enable
-        balance roundrobin
-        option httpclose
-        option forwardfor
-        server 182381-web-01 54.160.105.142
-        server 182381-web-02 52.237.96.119
-" | sudo tee -a /etc/haproxy/haproxy.cfg
+        default_backend web-backend
 
+backend web-backend
+        balance roundrobin
+        server 182381-web-01 54.160.105.142:80 check
+        server 182381-web-02 54.237.96.119:80 check
+" | sudo tee -a /etc/haproxy/haproxy.cfg
 # Restart HAproxy service
 service haproxy restart
