@@ -1,18 +1,22 @@
 #!/usr/bin/env bash
 # A Bash script that will display information about subdomains with a specific requirements.
 
-DNS_info () {
-    ANSWER=$(dig $2 | grep -A1 'ANSWER SECTION:' | awk 'NR==2 {print $0}')
-    echo "The subdomain $1 is a $(echo $ANSWER | awk '{print $4}') record and points to $(echo $ANSWER | awk '{print $5}')"
+domain_info() {
+   A=$(dig $2.$1 | awk '/ANSWER SECTION:/{getline;print;}')
+   RECORD=$(echo $A | cut -d' ' -f 4)
+   IP=$(echo $A | cut -d' ' -f 5)
+   echo "The subdomain $2 is a $RECORD record and points to $IP"
 }
 
-if [[ $# == 1 ]]; then
-    subdomains=('www' 'lb-01' 'web-01' 'web-02')
-    for i in "${subdomains[@]}"; do
-	CONCAT="$i.$1"
-	DNS_info $i $CONCAT
-    done
+if [ $# -lt 1 ]
+then
+    echo "Usage: 1-world_wide_web DOMAIN SUBDOMAIN(optional)"
+elif [ $# -eq 1 ]
+then
+    domain_info "$1" "www"
+    domain_info "$1" "lb-01"
+    domain_info "$1" "web-01"
+    domain_info "$1" "web-02"
 else
-    CONCAT="$2.$1"
-    DNS_info $2 $CONCAT
+    domain_info "$1" "$2"
 fi
