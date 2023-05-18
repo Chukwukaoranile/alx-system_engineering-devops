@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+# Stop any running Apache service
+pkill apache2
+
+# Update the Nginx configuration to listen on port 8080
+sed -i 's/listen\s*80;/listen 8080;/g' /etc/nginx/sites-available/default
+
+# Set the correct permissions for the Nginx configuration file
+chmod 644 /etc/nginx/nginx.conf
+
+# Restart Nginx service as the nginx user
+sudo -u nginx service nginx restart
+
