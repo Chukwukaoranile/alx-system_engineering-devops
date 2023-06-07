@@ -8,8 +8,8 @@ A great API to use for some practice is the Reddit API. There’s a lot of endpo
 
 #### Resources
 Read or watch:
-https://www.reddit.com/dev/api/
-https://en.wikipedia.org/wiki/Query_string
+[Reddit](https://www.reddit.com/dev/api/)
+(https://en.wikipedia.org/wiki/Query_string)
 
 General
 How to read API documentation to find the endpoints you’re looking for
