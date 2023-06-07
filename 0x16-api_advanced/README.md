@@ -40,14 +40,14 @@ You must use the Requests module for sending HTTP requests to the Reddit API
 ```
 
 ### Tasks
-0. How many subs?
-mandatory
+#### 0. How many subs?
+_mandatory_
 
 Write a function that queries the Reddit API and returns the number of subscribers (not active users, total subscribers) for a given subreddit. If an invalid subreddit is given, the function should return 0.
 
 Hint: No authentication is necessary for most features of the Reddit API. If you’re getting errors related to Too Many Requests, ensure you’re setting a custom User-Agent.
 
-Requirements:
+##### Requirements:
 
 Prototype: def number_of_subscribers(subreddit)
 If not a valid subreddit, return 0.
@@ -157,7 +157,7 @@ advanced
 
 Write a recursive function that queries the Reddit API, parses the title of all hot articles, and prints a sorted count of given keywords (case-insensitive, delimited by spaces. Javascript should count as javascript, but java should not).
 
-3333Requirements:
+#### Requirements:
 
 Prototype: def count_words(subreddit, word_list)
 Note: You may change the prototype, but it must be able to be called with just a subreddit supplied and a list of keywords. AKA you can add a counter or anything else, but the function must work without supplying a starting value in the main.
