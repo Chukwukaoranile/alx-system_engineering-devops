@@ -14,7 +14,8 @@ But you might hear people referring to a web server using the word server. (Chec
 As mentioned above, a server is a physical machine, an actual computer, but in the Cloud era that could also be a virtual computer, generally called a VM (Virtual Machine) or container.
 ```
 
-[Web Server](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server) \ (https://en.wikipedia.org/wiki/Web_server) ()
+[Web Server](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server)\
+[Webserver - Wiki](https://en.wikipedia.org/wiki/Web_server)\
 [Web stack debugging](https://intranet.alxswe.com/concepts/68)
 
 ### Background Context
