@@ -46,7 +46,7 @@ More Info
 	$ gem install puppet-lint -v 2.1.1
 
 ### Tasks
-#### 0. Strace is your friend \
+#### 0. Strace is your friend\
 _mandatory_
 
 
