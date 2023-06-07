@@ -54,7 +54,7 @@ Using strace, find out why Apache is returning a 500 error. Once you find the is
 Hint:
 
 strace can attach to a current running process
-You can use tmux to run strace in one window and curl in another one
+You can use [tmux](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/) to run [strace](https://strace.io/) in one window and curl in another one
 Requirements:
 
 Your 0-strace_is_your_friend.pp file must contain Puppet code
