@@ -1,12 +1,12 @@
 ## 0x16. API advanced
 _Python, Scripting, Back-end, API_
 
-####Background Context
+#### Background Context
 Questions involving APIs are common for interviews. Sometimes they’re as simple as ‘write a Python script that queries a given endpoint’, sometimes they require you to use recursive functions and format/sort the results.
 
 A great API to use for some practice is the Reddit API. There’s a lot of endpoints available, many that don’t require any form of authentication, and there’s tons of information to be parsed out and presented. Getting comfortable with API calls now can save you some face during technical interviews and even outside of the job market, you might find personal use cases to make your life a little bit easier.
 
-####Resources
+#### Resources
 Read or watch:
 https://www.reddit.com/dev/api/
 https://en.wikipedia.org/wiki/Query_string
@@ -23,7 +23,7 @@ You will not be able to meet the objectives of this or any following project by 
 You are not allowed to publish any content of this project.
 Any form of plagiarism is strictly forbidden and will result in removal from the program.
 
-####Requirements
+#### Requirements
 General
 ```
 Allowed editors: vi, vim, emacs
@@ -39,7 +39,7 @@ All your modules should have a documentation (python3 -c 'print(__import__("my_m
 You must use the Requests module for sending HTTP requests to the Reddit API
 ```
 
-###Tasks
+### Tasks
 0. How many subs?
 mandatory
 
@@ -72,7 +72,7 @@ wintermancer@lapbox ~/reddit_api/project $ python3 0-main.py this_is_a_fake_subr
 0
 ```
 
-###1. Top Ten
+### 1. Top Ten
 mandatory
 
 Write a function that queries the Reddit API and prints the titles of the first 10 hot posts listed for a given subreddit.
@@ -120,7 +120,7 @@ Write a recursive function that queries the Reddit API and returns a list contai
 
 Hint: The Reddit API uses pagination for separating pages of responses.
 
-####Requirements:
+#### Requirements:
 
 Prototype: def recurse(subreddit, hot_list=[])
 Note: You may change the prototype, but it must be able to be called with just a subreddit supplied. AKA you can add a counter, but it must work without supplying a starting value in the main.
@@ -152,7 +152,7 @@ wintermancer@lapbox ~/reddit_api/project $ python3 2-main.py programming
 wintermancer@lapbox ~/reddit_api/project $ python3 2-main.py this_is_a_fake_subreddit
 ```
 
-###3. Count it!
+### 3. Count it!
 advanced
 
 Write a recursive function that queries the Reddit API, parses the title of all hot articles, and prints a sorted count of given keywords (case-insensitive, delimited by spaces. Javascript should count as javascript, but java should not).
@@ -169,7 +169,7 @@ If no posts match or the subreddit is invalid, print nothing.
 NOTE: Invalid subreddits may return a redirect to search results. Ensure that you are NOT following redirects.
 Your code will NOT pass if you are using a loop and not recursively calling the function! This /can/ be done with a loop but the point is to use a recursive function. :)
 
-#####Disclaimer: number presented in this example cannot be accurate now - Reddit is hot articles are always changing.
+##### Disclaimer: number presented in this example cannot be accurate now - Reddit is hot articles are always changing.
 
 ```
 bob@dylan $ cat 100-main.py 
