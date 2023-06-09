@@ -1,11 +1,11 @@
 ## 0x19. Postmortem
 _DevOps, SysAdmin_
 ### Concepts
-For this project, we expect you to look at this concept:
+For this project, we expect you to look at this concept:\
 [On- CAll](https://intranet.alxswe.com/concepts/39)
 
 ### Background Context
-[![PostMortem Concept](https://img.youtube.com/vi/rp5cVMNmbro)/0.jpg)](https://www.youtube.com/watch?v=rp5cVMNmbro)
+[![PostMortem Concept](https://img.youtube.com/vi/rp5cVMNmbro/0.jpg)](https://www.youtube.com/watch?v=rp5cVMNmbro)
 Any software system will eventually fail, and that failure can come stem from a wide range of possible factors: bugs, traffic spikes, security issues, hardware failures, natural disasters, human error… Failing is normal and failing is actually a great opportunity to learn and improve. Any great Software Engineer must learn from his/her mistakes to make sure that they won’t happen again. Failing is fine, but failing twice because of the same issue is not.
 
 A postmortem is a tool widely used in the tech industry. After any outage, the team(s) in charge of the system will write a summary that has 2 main goals:
@@ -21,7 +21,7 @@ And to ensure that the root cause(s) of the outage has been discovered and that 
 
 ### Tasks
 ### 0. My first postmortem
-![GIF](https://twitter.com/devopsreact/status/834887829486399488)
+![GIF](https://twitter.com/i/status/834887829486399488)
 Using one of the web stack debugging project issue or an outage you have personally face, write a postmortem. Most of you will never have faced an outage, so just get creative and invent your own :)
 
 ##### Requirements:
