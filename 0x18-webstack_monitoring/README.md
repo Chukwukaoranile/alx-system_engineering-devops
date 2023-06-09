@@ -67,7 +67,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 #### 0. Sign up for Datadog and install datadog-agent
 _mandatory_
 For this task head to <https://www.datadoghq.com/> and sign up for a free **Datadog** account. When signing up, you’ll have the option of selecting statistics from your current stack that **Datadog** can monitor for you. Once you have an account set up, follow the instructions given on the website to install the **Datadog agent**.
-![Schema_1](https://imgur.com/mZkh3xS.png)
+![Schema_1](https://imgur.com/a/mZkh3xS.png)
 
 * Sign up for Datadog - Please make sure you are using the US website of Datagog (.com)
 * Install datadog-agent on web-01
