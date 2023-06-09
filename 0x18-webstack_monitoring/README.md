@@ -3,7 +3,7 @@ _DevOps, SysAdmin, monitorin_
 
 Concepts
 For this project, we expect you to look at these concepts:\
-<[Monitoring](https://intranet.alxswe.com/concepts/13)>
+[Monitoring](https://intranet.alxswe.com/concepts/13)
 
 Server
 Servers are located in datacenters which are buildings that host hundreds, or even thousands of computers (servers). You can think of a server as a computer without a keyboard, mouse, or screen, that is accessible only by a network. A server can be physical or virtual. A server runs an OS (operating system).
@@ -12,6 +12,7 @@ Read:
 
 What is a server
 [What is a server](https://en.wikipedia.org/wiki/Server_(computing)
+
 ####  Watch: 
 [![What is a server](https://img.youtube.com/vi/B1ANfsDyjeA/0.jpg)](https://www.youtube.com/watch?v=B1ANfsDyjeA)\
 [![Where are servers hosted](https://img.youtube.com/vi/iuqXFC_qIvA&t=33s/0.jpg)](https://www.youtube.com/watch?v=iuqXFC_qIvA&t=33s)\
@@ -29,17 +30,17 @@ Web stack monitoring can be broken down into 2 categories:
 ![Meme](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/281/ktCXnhE.jpg)\
 
 ### Resources
-#### \ * Read or watch:
+#### * Read or watch:
 
-* [What is server monitoring](https://www.sumologic.com/glossary/server-monitoring/)\
-* [What is application monitoring](https://en.wikipedia.org/wiki/Application_performance_management)\
-* [System monitoring by Google](https://sre.google/sre-book/monitoring-distributed-systems/)\
+* [What is server monitoring](https://www.sumologic.com/glossary/server-monitoring/)
+* [What is application monitoring](https://en.wikipedia.org/wiki/Application_performance_management)
+* [System monitoring by Google](https://sre.google/sre-book/monitoring-distributed-systems/)
 * [Nginx logging and monitoring](https://docs.nginx.com/nginx/admin-guide/monitoring/logging/)
 
 ### Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-#### General
+#### * General
 	* Why is monitoring needed
 	* What are the 2 main area of monitoring
 	* What are access logs for a web server (such as Nginx)
