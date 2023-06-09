@@ -17,7 +17,8 @@ What is a server
 [![Where are servers hosted](https://img.youtube.com/vi/iuqXFC_qIvA&t=33s/0.jpg)](https://www.youtube.com/watch?v=iuqXFC_qIvA&t=33s)\
 Do not mix up server and web server. (Check out the web server concept page to know more about this.)
 [Wiki](https://en.wikipedia.org/wiki/Server_(computing)#Hardware_requirement)\
-![Monitoring Shema](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/281/hb3pAsO.png)\
+![Monitoring Shema](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/281/hb3pAsO.png)
+
 ### Background Context
 “You cannot fix or improve what you cannot measure” is a famous saying in the Tech industry. In the age of the data-ism, monitoring how our Software systems are doing is an important thing. In this project, we will implement one of many tools to measure what is going on our servers.
 
@@ -28,12 +29,12 @@ Web stack monitoring can be broken down into 2 categories:
 ![Meme](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/281/ktCXnhE.jpg)\
 
 ### Resources
-#### Read or watch:
+#### \ * Read or watch:
 
-	* \ [What is server monitoring](https://www.sumologic.com/glossary/server-monitoring/)\
-	* \ [What is application monitoring](https://en.wikipedia.org/wiki/Application_performance_management)\
-	* \ [System monitoring by Google](https://sre.google/sre-book/monitoring-distributed-systems/)\
-	* \ [Nginx logging and monitoring](https://docs.nginx.com/nginx/admin-guide/monitoring/logging/)
+* [What is server monitoring](https://www.sumologic.com/glossary/server-monitoring/)\
+* [What is application monitoring](https://en.wikipedia.org/wiki/Application_performance_management)\
+* [System monitoring by Google](https://sre.google/sre-book/monitoring-distributed-systems/)\
+* [Nginx logging and monitoring](https://docs.nginx.com/nginx/admin-guide/monitoring/logging/)
 
 ### Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
