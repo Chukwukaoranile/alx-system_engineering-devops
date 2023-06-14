@@ -1,4 +1,4 @@
-#00x1B. Web stack debugging #4
+# 00x1B. Web stack debugging #4
 _DevOps, SysAdmin, Scripting, Debugging_
 
 ![Image](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/313/frdkCrb.jpg)
