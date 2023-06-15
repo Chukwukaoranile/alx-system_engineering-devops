@@ -345,8 +345,4 @@ sylvain@ubuntu$
 ```
 In this example, you can see that my Bash script tells the master Gunicorn renewed all the workers.
 
-For <p style="color:red;">testing it</p>, please use the command $ sudo reboot to reboot your server (not shutdown!!)
-
-
-A very <span style='color: red;'>long</span> sentence.
-
+For testing it, please use the command $ sudo reboot to reboot your server (not shutdown!!)
