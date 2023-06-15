@@ -16,8 +16,10 @@ What is a server\
 ####  Watch: 
 [![What is a server](https://img.youtube.com/vi/B1ANfsDyjeA/0.jpg)](https://www.youtube.com/watch?v=B1ANfsDyjeA)\
 [![Where are servers hosted](https://img.youtube.com/vi/iuqXFC_qIvA&t=33s/0.jpg)](https://www.youtube.com/watch?v=iuqXFC_qIvA&t=33s)\
-Do not mix up server and web server. (Check out the web server concept page to know more about this.)
-[Wiki](https://en.wikipedia.org/wiki/Server_(computing)#Hardware_requirement)\
+
+Do not mix up server and web server. (Check out the web server concept page to know more about this.)\
+
+[Wiki](https://en.wikipedia.org/wiki/Server_(computing))#Hardware_requirement)\
 ![Monitoring Shema](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/281/hb3pAsO.png)
 
 ### Background Context
