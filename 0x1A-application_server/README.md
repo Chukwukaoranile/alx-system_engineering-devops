@@ -192,7 +192,7 @@ ubuntu@229-web-01:~/AirBnB_clone_v2$ pgrep gunicorn
 
 ubuntu@229-web-01:~/AirBnB_clone_v2$ curl 127.0.0.1:5000/airbnb-onepage/
 Hello HBNB!ubuntu@229-web-01:~/AirBnB_clone_v2$
-
+```
 ubuntu@229-web-01:~/AirBnB_clone_v2$ curl 127.0.0.1:5001/number_odd_or_even/6
 <!DOCTYPE html>
 <HTML lang="en">
@@ -221,7 +221,6 @@ vagrant@ubuntu-xenial:~$ curl 35.231.193.217/airbnb-dynamic/number_odd_or_even/6
   </HEAD>
   <BODY><H1>Number: 6 is even</H1></BODY>
 </HTML>vagrant@ubuntu-xenial:~$
-```
 ```
 ### 4. Let's do this for your API
 _mandatory_
@@ -346,5 +345,8 @@ sylvain@ubuntu$
 ```
 In this example, you can see that my Bash script tells the master Gunicorn renewed all the workers.
 
-For testing it, please use the command $ sudo reboot to reboot your server (not shutdown!!)
+For <p style="color:red;">testing it</p>, please use the command $ sudo reboot to reboot your server (not shutdown!!)
+
+
+A very <span style='color: red;'>long</span> sentence.
 
